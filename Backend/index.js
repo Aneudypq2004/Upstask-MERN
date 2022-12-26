@@ -37,7 +37,7 @@ const CorsOptions = {
     }
 }
 
-app.use(cors(CorsOptions))
+app.use(cors())
 
 //routing
 
